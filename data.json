@@ -1,0 +1,243 @@
+{
+  "site": {
+    "title": "Kunal Nakum — Software Engineer",
+    "logoText": "kunal.dev",
+    "footerText": "© 2026 Kunal Nakum — built with .NET-grade attention to detail."
+  },
+
+  "nav": {
+    "ctaLabel": "ask_kunal_ai →",
+    "links": [
+      { "label": "about", "href": "#about" },
+      { "label": "skills", "href": "#skills" },
+      { "label": "experience", "href": "#experience" },
+      { "label": "projects", "href": "#projects" },
+      { "label": "education", "href": "#education" },
+      { "label": "contact", "href": "#contact" }
+    ]
+  },
+
+  "hero": {
+    "eyebrow": "AVAILABLE FOR BACKEND / FULL-STACK ROLES",
+    "headingLines": [
+      "Kunal Nakum builds",
+      "backend systems that",
+      "move {accent:real money} and {accent:real patients}."
+    ],
+    "description": "Software Engineer specializing in .NET, ASP.NET Core, Angular, and SQL Server — shipping financial transaction platforms, healthcare systems, and multi-store retail infrastructure at Ikart Solutions.",
+    "stackTags": ["C# / .NET", "ASP.NET Core", "Angular", "SQL Server", "SignalR", "AWS S3 / EC2", "Azure Blob"],
+    "primaryCta": { "label": "▸ Ask Kunal AI", "href": "#ai-assistant" },
+    "secondaryCta": { "label": "View projects", "href": "#projects" },
+    "stats": [
+      { "num": "4+", "label": "PRODUCTION PROJECTS" },
+      { "num": "5", "label": "INDUSTRY DOMAINS" },
+      { "num": "1yr+", "label": "PROFESSIONAL EXPERIENCE" }
+    ]
+  },
+
+  "about": {
+    "breadcrumb": "~/about",
+    "title": "About Me",
+    "paragraphs": [
+      "I'm a {b:Full Stack Developer} working primarily in the .NET ecosystem, currently building production systems at {b:Ikart Solutions LLP}. My focus sits on the backend — API design, database architecture, and the unglamorous but critical work of making transaction systems reliable.",
+      "Over the past year I've worked across five distinct domains: a {b:financial services platform} handling third-party money transfer integrations, a {b:multi-store retail POS system}, a {b:healthcare platform} with real-time chat and live tracking, a {b:food delivery system} I built solo end-to-end, and a {b:fleet management system} during my internship at ATTPL.",
+      "What ties these together is the same instinct: design the data model right, write stored procedures that don't fall over under load, and build authorization that holds up in production. I care about systems that work correctly when money or health data is on the line."
+    ],
+    "card": [
+      { "k": "ROLE", "v": "Software Engineer" },
+      { "k": "COMPANY", "v": "Ikart Solutions LLP" },
+      { "k": "LOCATION", "v": "Ahmedabad, Gujarat, IN" },
+      { "k": "FOCUS", "v": ".NET · Angular · SQL Server" },
+      { "k": "EDUCATION", "v": "B.Tech, Parul University" },
+      { "k": "STATUS", "v": "Open to opportunities", "highlight": true }
+    ]
+  },
+
+  "skills": {
+    "breadcrumb": "~/skills",
+    "title": "Technical Skills",
+    "subtitle": "The stack I use to ship backend-heavy, production-grade applications.",
+    "categories": [
+      { "label": "BACKEND", "items": ["C# / .NET", "ASP.NET Core", "Entity Framework Core", "LINQ", "REST API Development", "Middleware Development"] },
+      { "label": "FRONTEND", "items": ["Angular", "HTML / CSS", "JavaScript", "React (internship)"] },
+      { "label": "DATA", "items": ["SQL Server", "Stored Procedures", "Query Optimization", "MongoDB"] },
+      { "label": "CLOUD & INFRA", "items": ["AWS S3 / EC2", "Azure Blob Storage", "IIS", "SSL Configuration"] },
+      { "label": "REAL-TIME & INTEGRATION", "items": ["SignalR", "Third-Party API Integration", "Azure Maps", "Google Maps API"] },
+      { "label": "PRACTICES", "items": ["Role-Based Access Control", "Production Deployment", "Git", "Requirement Analysis"] }
+    ]
+  },
+
+  "experience": {
+    "breadcrumb": "~/experience",
+    "title": "Work Experience",
+    "subtitle": "Two roles, five production domains.",
+    "items": [
+      {
+        "dateStart": "FEB 2025",
+        "dateEnd": "PRESENT",
+        "current": true,
+        "role": "Software Engineer",
+        "company": "Ikart Solutions LLP",
+        "description": "Building backend APIs, transaction workflows, and Angular frontends across financial services, retail, and healthcare platforms. Owns SQL Server stored procedure development, RBAC implementation, and production issue resolution.",
+        "tags": ["ASP.NET Core", "Angular", "SQL Server", "SignalR", "AWS S3"]
+      },
+      {
+        "dateStart": "FEB 2024",
+        "dateEnd": "JUL 2024",
+        "current": false,
+        "role": "Full Stack Intern",
+        "company": "ATTPL",
+        "description": "Built an internal truck tracking and fleet management system using the MERN stack with live Google Maps integration, trip reporting, and driver assignment workflows in an Agile team environment.",
+        "tags": ["MongoDB", "Express.js", "React", "Node.js", "Google Maps API"]
+      }
+    ]
+  },
+
+  "projects": {
+    "breadcrumb": "~/projects",
+    "title": "Selected Projects",
+    "subtitle": "Production systems across financial services, retail, healthcare, and food delivery.",
+    "items": [
+      {
+        "title": "Online Saathi",
+        "domain": "FINTECH",
+        "description": "A financial and multi-service platform supporting high-value transactions. Built business logic, transaction workflows, and integrated DMT, IME, and Prabhu money-transfer APIs with retry handling for failed transactions.",
+        "tags": ["ASP.NET Core", "Angular", "SQL Server", "SignalR", "AWS S3"],
+        "highlight": "Migrated file storage from Azure Blob to AWS S3 and built real-time transaction notifications via SignalR."
+      },
+      {
+        "title": "POS System",
+        "domain": "RETAIL",
+        "description": "Multi-store retail POS supporting franchise operations. Migrated the platform's architecture from a client-based model to a store-based model and built centralized authorization middleware.",
+        "tags": ["ASP.NET Core", "Angular", "SQL Server", "RBAC"],
+        "highlight": "Centralized store-level authorization, improving security across franchise locations."
+      },
+      {
+        "title": "MedGo2U",
+        "domain": "HEALTHCARE",
+        "description": "A healthcare platform for medicine ordering, appointment booking, and delivery tracking. Built patient-facing and provider-facing APIs and real-time chat between patients and healthcare professionals.",
+        "tags": ["ASP.NET Core", "Angular", "SignalR", "Azure Maps"],
+        "highlight": "Integrated Azure Maps for live delivery tracking and route optimization."
+      },
+      {
+        "title": "Food Dile",
+        "domain": "FOOD DELIVERY",
+        "description": "A store-specific food delivery platform built independently end-to-end — schema design, customer ordering flow, admin panel, order lifecycle, and deployment.",
+        "tags": ["ASP.NET Core", "Angular", "SQL Server"],
+        "highlight": "Owned the complete SDLC solo, from requirements through production deployment."
+      }
+    ]
+  },
+
+  "education": {
+    "breadcrumb": "~/education",
+    "title": "Education",
+    "items": [
+      {
+        "initials": "BT",
+        "degree": "B.Tech, Computer Engineering",
+        "school": "Parul University, Gujarat",
+        "metric": "7.2 CGPA",
+        "duration": "2021 — 2025"
+      }
+    ]
+  },
+
+  "aiAssistantSection": {
+    "breadcrumb": "~/ask-kunal-ai",
+    "title": "Ask Kunal AI",
+    "subtitle": "An assistant trained on this profile — ask it anything a recruiter would want to know, and get a direct answer in seconds.",
+    "features": [
+      { "title": "Trained on real experience", "description": "Answers are grounded in Kunal's actual projects, stack, and work history — not generic filler." },
+      { "title": "Recruiter-first answers", "description": "Ask about specific tech, project domains, or fit for a role — get a precise, scannable response." },
+      { "title": "Available anywhere on the page", "description": "The floating button in the corner opens this assistant from any section — no need to scroll back." }
+    ],
+    "ctaLabel": "▸ Try it now",
+    "previewExchanges": [
+      {
+        "q": "Which project used SignalR?",
+        "a": "Three did — Online Saathi (real-time transaction notifications), MedGo2U (patient-provider live chat), and indirectly the POS dashboards. SignalR is Kunal's go-to for real-time features."
+      },
+      {
+        "q": "Is Kunal suitable for a .NET Backend Developer role?",
+        "a": "Yes — his strongest area is exactly that: ASP.NET Core API development, SQL Server optimization, and production-grade backend systems across fintech and healthcare."
+      }
+    ]
+  },
+
+  "contact": {
+    "title": "Let's build something reliable.",
+    "description": "Open to .NET / full-stack backend roles. The fastest way to reach me is email or phone — or just ask the AI assistant.",
+    "links": [
+      { "label": "✉ kunalnakum045@gmail.com", "href": "mailto:kunalnakum045@gmail.com" },
+      { "label": "☏ +91 70168 68723", "href": "tel:+917016868723" },
+      { "label": "in LinkedIn", "href": "#" },
+      { "label": "⌥ GitHub", "href": "#" }
+    ]
+  },
+
+  "aiAssistant": {
+    "fabLabel": "Ask Kunal AI",
+    "fabSubLabel": "online now",
+    "panelTitle": "ask_kunal_ai — chat",
+    "welcomeMessage": "Hey, I'm trained on Kunal's resume and project history. Ask me about his stack, his projects, or whether he's a fit for a role.",
+    "inputPlaceholder": "Ask about Kunal's experience...",
+    "fallbackAnswer": "I don't have a specific answer for that yet — but you can reach Kunal directly at kunalnakum045@gmail.com, or try asking about his stack, a specific project (Online Saathi, POS System, MedGo2U, Food Dile), or his fit for a role.",
+    "suggestedQuestions": [
+      "Tell me about Kunal",
+      "Does Kunal have AWS experience?",
+      "Tell me about Online Saathi",
+      "Is Kunal a fit for a .NET Backend role?"
+    ],
+    "knowledgeBase": [
+      {
+        "keys": ["tell me about kunal", "who is kunal", "about kunal"],
+        "answer": "Kunal Nakum is a Full Stack Developer based in Ahmedabad, India, specializing in .NET, ASP.NET Core, Angular, and SQL Server. He's currently a Software Engineer at Ikart Solutions LLP, where he's built financial transaction systems, a multi-store POS platform, and a healthcare app. He graduated from Parul University with a B.Tech in Computer Engineering (7.2 CGPA, 2021–2025)."
+      },
+      {
+        "keys": ["technologies", "tech stack", "what does kunal work with", "skills"],
+        "answer": "His core stack is C#, .NET, ASP.NET Core, Angular, and SQL Server. He also works with SignalR for real-time features, AWS S3 / EC2 and Azure Blob Storage for cloud infra, MongoDB, and has React/Node.js experience from an internship."
+      },
+      {
+        "keys": ["aws", "cloud"],
+        "answer": "Yes — Kunal has hands-on AWS experience with S3 and EC2. On the Online Saathi project he migrated file storage from Azure Blob Storage to AWS S3 to improve reliability. He's also worked with Azure Blob Storage and Azure Maps."
+      },
+      {
+        "keys": ["online saathi"],
+        "answer": "Online Saathi is a financial and multi-service platform Kunal built at Ikart Solutions. He developed ASP.NET Core APIs, transaction workflows, and Angular modules, integrated DMT/IME/Prabhu money-transfer APIs with retry handling, built real-time SignalR notifications, and migrated storage from Azure Blob to AWS S3."
+      },
+      {
+        "keys": ["signalr", "real-time", "real time"],
+        "answer": "SignalR shows up in two major projects: Online Saathi (real-time transaction notifications) and MedGo2U (live chat between patients and healthcare professionals). It's his default tool whenever a project needs real-time updates."
+      },
+      {
+        "keys": ["financial", "fintech", "finance"],
+        "answer": "Kunal's main financial systems work is Online Saathi — a platform handling high-value transactions with integrations into DMT, IME, and Prabhu money-transfer APIs, plus failure/retry handling for transaction reliability."
+      },
+      {
+        "keys": ["backend developer", "backend role", "suitable", "fit for"],
+        "answer": "Yes — his strongest area is exactly backend development: ASP.NET Core API design, SQL Server stored procedures and query optimization, business logic for transaction systems, and production issue resolution. That's been the core of his work across all four major projects."
+      },
+      {
+        "keys": ["pos", "point of sale", "retail"],
+        "answer": "Kunal contributed to a multi-store retail POS system, migrating its architecture from a client-based to a store-based structure, implementing RBAC, and building APIs for inventory, billing, and reporting."
+      },
+      {
+        "keys": ["medgo", "healthcare", "medical"],
+        "answer": "MedGo2U is a healthcare platform Kunal worked on — medicine ordering, appointment booking, and delivery tracking. He built patient- and provider-facing APIs, real-time chat via SignalR, and integrated Azure Maps for live tracking."
+      },
+      {
+        "keys": ["food dile", "food delivery"],
+        "answer": "Food Dile is a food delivery platform Kunal built independently end-to-end — database schema, customer ordering flow, admin panel, order lifecycle, and deployment. Full SDLC ownership, solo."
+      },
+      {
+        "keys": ["experience", "years", "how long"],
+        "answer": "Kunal has been a Software Engineer at Ikart Solutions LLP since February 2025, plus a Full Stack Internship at ATTPL from February to July 2024 — so just over a year of hands-on professional experience including the internship."
+      },
+      {
+        "keys": ["contact", "email", "phone", "hire"],
+        "answer": "You can reach Kunal directly at kunalnakum045@gmail.com or +91 70168 68723 — both are linked in the Contact section below."
+      }
+    ]
+  }
+}
